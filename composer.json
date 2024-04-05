@@ -1,0 +1,63 @@
+{
+    "name": "mediacentr/laravel-wizard",
+    "description": "A web setup wizard for Laravel application.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mcdev",
+            "email": "mcdev@gmail.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "wizard",
+        "step",
+        "steps",
+        "component",
+        "plugin"
+    ],
+    "homepage": "https://github.com/mediacentr/laravel-wizard",
+    "require": {
+        "php": ">=7.1.3",
+        "facade/ignition-contracts": "^1.0",
+        "laravel/framework": ">=5.6"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3.1",
+        "orchestra/testbench": ">=3.6",
+        "phpunit/phpunit": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MediaCentr\\LaravelWizard\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MediaCentr\\LaravelWizard\\Test\\": "tests"
+        },
+        "files": [
+            "tests/utils.php"
+        ],
+        "classmap": [
+            "tests/Stubs/database/migrations"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MediaCentr\\LaravelWizard\\WizardServiceProvider"
+            ],
+            "aliases": {
+                "Wizard": "MediaCentr\\LaravelWizard\\Facades\\Wizard"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
