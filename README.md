@@ -8,8 +8,6 @@
 
 A web setup wizard for Laravel application.
 
-> This package is adapted from [smajti1/laravel-wizard](https://github.com/smajti1/laravel-wizard).
-
 ![Laravel wizard main image.](docs/laravel-wizard-main-image.jpg)
 
 ## Table of Contents
@@ -560,24 +558,6 @@ Add custom view path:
 php artisan make:wizard:step NameStep --label="Name" --slug=name --view=steps.user.name --wizard=user
 ```
 
-## Sponsor
-
-If you think this package has helped you, please consider [Becoming a sponsor](https://www.patreon.com/mediacentr) to support my work~ and your avatar will be visible on my major projects.
-
-<p align="center">
-  <a href="https://www.patreon.com/mediacentr">
-    <img src="https://cdn.jsdelivr.net/gh/mediacentr/static/sponsors.svg"/>
-  </a>
-</p>
-
-<a href="https://www.patreon.com/mediacentr">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron" />
-</a>
-
-## Credits
-
-* [smajti1/laravel-wizard](https://github.com/smajti1/laravel-wizard)
-
 ## License
 
 [MIT LICENSE](LICENSE)
@@ -586,7 +566,6 @@ If you think this package has helped you, please consider [Becoming a sponsor](h
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square
 [ico-github-action]: https://img.shields.io/github/actions/workflow/status/mediacentr/laravel-wizard/tests.yml?branch=2.x&label=tests&style=flat-square
 [ico-style-ci]: https://github.styleci.io/repos/190876726/shield?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/mediacentr/laravel-wizard?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/mediacentr/laravel-wizard
 [link-github-action]: https://github.com/mediacentr/laravel-wizard/actions/workflows/tests.yml?query=branch%3A2.x
