@@ -2,9 +2,7 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE)
-[![GitHub Tests Action Status][ico-github-action]][link-github-action]
-[![Style CI Build Status][ico-style-ci]][link-style-ci]
-[![Total Downloads][ico-downloads]][link-downloads]
+
 
 A web setup wizard for Laravel application.
 
